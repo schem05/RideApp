@@ -66,7 +66,7 @@ public class MakePost extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String total = "";
-                // Write a message to the database
+        
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
 
                 DatabaseReference fName = database.getReference("queries/" + eventName.getText().toString() + "/firstName");

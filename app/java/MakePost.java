@@ -146,11 +146,6 @@ public class MakePost extends AppCompatActivity {
 
                     }
                 });
-//                Log.d("HOME", total);
-//                Intent i = new Intent(MainActivity.this, AvailableOptions.class);
-//                i.putExtra("VALUES", data);
-//                startActivity(i);
-////                        info.setText(total);
 
             }
         });
